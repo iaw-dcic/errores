@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+header, footer {
+    background-color: gray;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+footer {
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+form {
+    border: 1px solid;
+    border-color: green;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+form .linea {
+    line-height: 40px;
+}
